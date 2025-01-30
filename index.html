@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biryani Recipe</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #b35e0f;
+            text-align: center;
+        }
+        h2 {
+            color: #6c5b7b;
+            border-bottom: 2px solid #b35e0f;
+            padding-bottom: 5px;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .instructions {
+            display: none; /* Initially hidden */
+        }
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #6c5b7b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #b35e0f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biryani Recipe</h1>
+<center>
+<img src="https://tse1.mm.bing.net/th?id=OIP.dzAbvRfX50S9YBV2ajgjJAHaE8&pid=Api&P=0&h=180"></center>
+    <p>Biryani is one of our all-time favorite dishes! Here's how you can make this delicious and flavorful dish at home.</p>
+
+    <h2>Ingredients</h2>
+    <h3>For the Rice:</h3>
+    <ul>
+        <li>2 cups basmati rice</li>
+        <li>4 cups water</li>
+        <li>2 bay leaves</li>
+        <li>4-5 cloves</li>
+        <li>1 cinnamon stick</li>
+        <li>Salt to taste</li>
+    </ul>
+    
+    <h3>For the Masala:</h3>
+<img src="https://tse1.mm.bing.net/th?id=OIP._ajiNvVWowlBbTSxYtNvpwHaEc&pid=Api&P=0&h=180">
+    <ol>
+        <li>500g chicken (or your choice of meat/vegetables)</li>
+        <li>2 large onions (sliced)</li>
+        <li>2 tomatoes (chopped)</li>
+        <li>1 cup yogurt</li>
+        <li>3 tbsp biryani masala powder</li>
+        <li>1 tsp turmeric powder</li>
+        <li>1 tsp red chili powder</li>
+        <li>3 tbsp cooking oil or ghee</li>
+        <li>Fresh coriander and mint leaves (chopped)</li>
+    </ol>
+
+    <h2>How to Make Biryani</h2>
+    <button class="button" onclick="toggleInstructions()">Show/Hide Instructions</button>
+    <div class="instructions">
+        <p><b>Step 1:</b> Wash and soak the basmati rice for 30 minutes. Cook the rice with bay leaves, cloves, cinnamon, and salt until 70% done. Drain and set aside.</p>
+        <p><b>Step 2:</b> Heat oil or ghee in a pan. Sauté onions until golden brown. Add tomatoes and cook until soft.</p>
+        <p><b>Step 3:</b> Add chicken, biryani masala, turmeric, red chili powder, and yogurt. Cook until the chicken is tender and the masala thickens.</p>
+        <p><b>Step 4:</b> In a large pot, layer the cooked rice and chicken masala. Sprinkle fresh coriander and mint leaves between layers.</p>
+        <p><b>Step 5:</b> Cover and cook on low heat for 20-25 minutes (dum cooking) to let the flavors combine.</p>
+        <p><b>Step 6:</b> Serve hot with raita or your favorite side dish!</p>
+    </div>
+
+    <p>Enjoy your homemade biryani!</p>
+  <script>
+        // JavaScript to toggle the visibility of instructions
+        function toggleInstructions() {
+            const instructions = document.querySelector('.instructions');
+            if (instructions.style.display === 'none' || instructions.style.display === '') {
+                instructions.style.display = 'block';
+            } else {
+                instructions.style.display = 'none';
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>
